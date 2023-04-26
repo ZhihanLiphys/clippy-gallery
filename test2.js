@@ -18,7 +18,7 @@ document.querySelector('#up-btn').addEventListener('click', () => {
     currentIndex-=1;
     Image();
   });
-for (let i = 1; i <= 16; i++) {
+for (let i = 1; i <= 18; i++) {
     const image = document.createElement('img');
     image.src = i+'.png'; // specify the path to your image folder
     imageFiles.push('images/' + i+'.png');
