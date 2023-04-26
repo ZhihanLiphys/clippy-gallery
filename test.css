@@ -1,0 +1,22 @@
+.container {
+    position: relative;
+  }
+  .indicator-container {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .indicator {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .indicator.active {
+    background-color: #000;
+  }
+  
