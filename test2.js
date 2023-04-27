@@ -24,10 +24,11 @@ for (let i = 1; i <= 18; i++) {
     imageFiles.push('images/' + i+'.png');
 }
 function Image() {
-    if (Math.abs(currentIndex -1) > imageFiles.length){
+    if (Math.abs(currentIndex ) > imageFiles.length){
         document.querySelector('#main-image').src ="00.png"
     }
-    document.querySelector('#main-image').src = imageFiles[currentIndex-1];
+    else if (currentIndex<0) {document.querySelector('#main-image').src ="00.png"}
+    else {document.querySelector('#main-image').src = imageFiles[currentIndex-1];}
     
 }
 
