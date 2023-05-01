@@ -28,6 +28,20 @@
     resize: both;
     overflow: auto;
   }
-
+.my-link{
+  color:rgb(15, 179, 230);
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  background: linear-gradient(rgba(15, 12, 155, 0.8), rgba(255, 255, 255, 0.2));
+  opacity: 0.9;
+  transform: translate(00px,-150px);
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 50px;
+  display: flex;
+}
+.my-link a {
+text-decoration: none;
   
-  
+}
