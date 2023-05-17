@@ -41,10 +41,12 @@
 #up-btn{
   position:absolute;
   margin-left:20%;
+  width: 100px;
 }
 #next-btn{
   position:relative;
-  left:63px;
+  left:163px;
+  width: 100px;
 }
 
 
