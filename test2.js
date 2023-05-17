@@ -1,6 +1,6 @@
 var imageFiles = [];
 var indicator = document.querySelector('.indicator');
-var distance = 20; /* set the distance to move the indicator */
+var distance = 30; /* set the distance to move the indicator */
 let position = 250;
 indicator.style.left = `${position}px`;
 currentIndex=0
