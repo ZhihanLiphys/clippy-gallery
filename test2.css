@@ -1,5 +1,6 @@
 .image-container {
     position: relative;
+    top:-20px;
     width: 250px; /* set the width of the container to match the width of the image */
     height: 400px; /* set the height of the container to match the height of the image */
   }
@@ -11,12 +12,12 @@
   
   .indicator {
     content: "";
-    position: absolute;
-    top: 3%;
-    left: 110%;
-    width: 20%;
+    position:absolute;
+    top: 35px;
+    margin-left:60px;
+    width: 30%;
     height: 40%;
-    border: 2px dashed red;
+    border: 5px dashed red;
     box-sizing: border-box;
 }
 .img{
@@ -24,6 +25,31 @@
     max-height: 100%;
     display: block; /* remove extra space below image */
 }
+#main-image1{
+  position:relative;
+  width: 500%;
+  max-height: 100%;
+  
+}
+.button-container{
+  position:absolute;
+  top:-100px;
+  margin-left: 800px;
+  
+}
+
+#up-btn{
+  position:absolute;
+  margin-left:20%;
+}
+#next-btn{
+  position:relative;
+  left:63px;
+}
+
+
+
+
 .div {
     resize: both;
     overflow: auto;
@@ -37,7 +63,7 @@
   transform: translate(00px,-150px);
   justify-content: center;
   align-items: center;
-  position: relative;
+  top:1000px;
   height: 50px;
   display: flex;
 }
